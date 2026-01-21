@@ -1,4 +1,3 @@
-const Discord = require('discord.js');
 js
 
 const express + require("express");
@@ -6,6 +5,7 @@ const app = express();
 
 app.get("get", (req, res) => res.send("OK"));
 app.listen(process.env.PORT || 3000);
+const Discord = require('discord.js');
 const chalk = require('chalk');
 const axios = require('axios');
 // Check if is up to date
